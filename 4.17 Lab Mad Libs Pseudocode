@@ -1,0 +1,15 @@
+# Name: Case Buckmaster
+# LAB: 4.17
+# Description: Repeatedly takes a string and integer as input to complete a mad libs until the user types "quit".
+
+# Variables
+
+# Asks user for their mad lib as input. 
+SET mad_lib_input equal to input stripped and split
+
+# Prints the same mad lib until the user types "quit" as an input.
+WHILE string_input does not equal "quit"
+    DISPLAY (f"Eating {mad_lib_input [1]} {mad_lib_input[0]} a day keeps the doctor away.")
+	
+	# Ask for input again.
+	SET mad_lib_input equal to input stripped and split
